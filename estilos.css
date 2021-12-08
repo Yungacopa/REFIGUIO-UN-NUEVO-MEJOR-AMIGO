@@ -1,0 +1,720 @@
+.header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.banner {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    z-index: 10;
+}
+
+.header-content {
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    color: ivory;
+}
+.gal {
+    height: 80vh;
+    width: 87%;
+   margin-left: 78px;
+} 
+.g{
+    margin-left: 130px;
+} 
+.g2{
+    margin-right: 130px;
+
+} 
+.cover1 {
+    width: 100%;
+    height: 100%;
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+}
+.cover22 {
+    width: 100%;
+    height: 100%;
+}
+.cover2 {
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+}
+
+.slide-banner {
+    height: 85vh;
+}
+
+.g21{
+    font-family: 'Questrial', sans-serif;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.g3{
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.gal1{
+    width: 400px;
+    height: 380px;
+    margin-left: -20px;
+    padding: 20px;
+}
+
+
+section {
+    padding: 50px;
+}
+
+.about-p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.products {
+    background-color: silver;
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+}
+.ss{
+    width: 400px;
+}
+
+.card-body {
+    font-family: 'Questrial', sans-serif;
+    background-color: ivory;
+
+}
+.card-title{
+    margin-top: 30px;
+}
+
+
+/*hiddenx*/
+.img-hiddenx {
+    display: inline-block;
+    position: relative;
+}
+.img-hiddenx > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin: 0;
+    padding: 50px;
+}
+
+.hiddenx:hover {
+    opacity: 0.09;
+    transition: opacity 1000ms;
+}
+.logo{
+    width: 110px;
+    height: 80px;
+    margin-left: 80px;
+}
+a{
+    font-size: 18px;
+    font-family: 'Questrial', sans-serif;
+}
+li{
+    margin-right: 50px;
+}
+.p{
+    padding: 50px;
+}
+.center{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Questrial', sans-serif;
+}
+.center2{
+    text-align: center;
+    padding: 25px;
+    font-family: 'Questrial', sans-serif;
+}
+.c22{
+    background: red;
+    border: 0px;
+}
+.c22:hover{
+    background: #3753FF;
+}
+.center1{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Questrial', sans-serif;
+}
+.navbar-nav .nav-item:hover .nav-link {
+    color: #E52A2A;
+}
+div.carousel-inner div.carousel-item::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #2121218c;
+    content: "";
+}
+.parrafo{
+    color: black;
+    margin-left: 210px;
+    margin-right: 210px;
+    padding: 25px;
+    font-size: 20px;
+    text-align: justify;
+}
+.i{
+    margin-left: 400px;
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
+.i11{
+    margin-left: 300px;
+    width: 700px;
+    height: 400px;
+    padding: 20px;
+}
+h2{
+    font-family: 'Questrial', sans-serif;
+    margin-left: 240px;
+    margin-right: 240px;
+
+        }
+.gp{
+    font-size: 70px;
+    padding: 3px;
+    color: #F51515;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+.whatsapp {
+  background: #287233;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+.left{
+    margin: 350px;
+}
+.b{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.b2{
+    color: #FFFFFF;
+}
+.b11{
+   font-family: 'Questrial', sans-serif;
+}
+.b1{
+    font-family: 'Questrial', sans-serif;
+}
+.men{
+    font-family: 'Questrial', sans-serif;
+}
+.b:hover{
+    text-decoration: none;
+    color: #E52A2A;
+}
+.d1{
+    padding: 6px;
+}
+
+.i1 {
+    font-size: 30px;
+    padding: 3px;
+    color: black;
+    
+    }
+.i1:hover{
+    color: #E52A2A;
+}
+.ga{
+    width: 300px;
+    height: 350px;
+    margin-left: 200px;
+}
+.ga:hover{
+    background: #E52A2A;
+    padding: 2px;        
+}
+.ga1{
+   width: 300px;
+    height: 350px;
+    margin-left: 50px; 
+}
+.ga1:hover{
+    background: #E52A2A;
+    padding: 2px;        
+}
+
+section {
+    padding: 100px;
+}
+
+.about-p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.products {
+    background-color: silver;
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+}
+
+.card-imagen {
+    width: 90%;
+    margin-bottom: -70px;
+    z-index: 10;
+    height: 200px;
+}
+.card-body {
+    border: 2px solid silver;
+    border-top: 5px solid purple;
+    background-color: ivory;
+    padding-top: 80px;
+}
+
+/*hiddenx*/
+.img-hiddenx {
+    display: inline-block;
+    position: relative;
+}
+.img-hiddenx > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin: 0;
+    padding: 50px;
+}
+
+.hiddenx:hover {
+    opacity: 0.09;
+    transition: opacity 1000ms;
+}
+
+
+.page-footer a {
+    color: white;
+}
+
+.page-footer li i {
+    font-size: 50px;
+}
+
+.footer-icons a {
+    color: black;
+}
+.footer-icons a:hover {
+    color: blue;
+}
+
+/* carrito */
+
+.containermaestro {
+    border: 2px solid black;
+    width: 80%;
+    margin: 0 auto;
+}
+.carrito {
+    margin: 0 auto;
+    
+    display: flex;
+    padding: 20px;
+}
+.image-car {
+    flex-basis: 50%;
+}
+.contenedor {
+    flex-basis: 50%;
+}
+
+.supercarrito {
+    background-color: ivory;
+}
+.com{
+    width: 400px;
+    margin-left: 480px;
+}
+.bb1{
+    margin-left: 100px;
+    background: red;
+    border: 0px;
+}
+.bb11{
+    margin-left: 120px;
+    background: red;
+    border: 0px;
+}
+.bb1:hover{
+    background: #3753FF;
+}
+.bb11:hover{
+    background: #3753FF;
+}
+.hh{
+    font-size: 25px;
+}
+.bbb{
+    background: red;
+    border: 0px;
+}
+.bbb:hover{
+    background: #3753FF;
+}
+/* carrito */
+.containermaestro {
+    border: 2px solid black;
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Questrial', sans-serif;
+}
+.carrito {
+    margin: 0 auto;
+    color: black;
+    display: flex;
+    padding: 20px;
+}
+.image-car {
+    flex-basis: 80%;
+    background: ivory;
+}
+.contenedor {
+    width:  50%;
+}
+.le{
+    margin-left: 50px;
+    width: 300px;
+    font-family: 'Questrial', sans-serif;
+}
+.le1{
+    margin-left: 120px;
+    width: 200px;
+    font-family: 'Questrial', sans-serif;
+}
+.supercarrito {
+    background-color: ivory;
+}
+input[type=text], input[type=email], input[type=number],select, textarea {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    resize: vertical;
+}
+input[type=radio] {
+width: 10%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+input[type=password] {
+  width: 70%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+input[type=submit],  input[type=reset]{
+  background-color: #EA2923;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-left: 10px;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #747687;
+}
+
+
+.col-251 {
+  float: left;
+  width: 45%;
+  margin-left: 0px;
+}
+.col-252 {
+  float: left;
+  width: 50%;
+  margin-left: 0px;
+}
+
+.col-751 {
+  width: 70%;
+  margin-top: 6px;
+  margin-left: 250px;
+}
+.col-752 {
+  width: 90%;
+  margin-top: 6px;
+  margin-left: 200px;
+}
+.col-501 {
+  width: 50%;
+  padding: 15px;
+}
+.col51{
+    margin-left: 10px;
+    margin: 10px;
+    margin-right: 10px;
+}
+.fila1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.fila2{
+    margin-right: 50px;
+}
+.fila1{
+     margin-right: 50px;
+}
+.section1{
+    background: #FFEDED;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 750px;
+}
+.section2{
+    background: #FFEDED;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 400px;
+}
+
+
+
+@media (max-width: 700px) {
+    .containermaestro {
+    border: 2px solid black;
+    width: 85%;
+    margin: 0 auto;
+    font-family: 'Questrial', sans-serif;
+}
+.carrito {
+    margin: 0 auto;
+    color: black;
+    display: flex;
+}
+.contenedor {
+    width:  400px;
+}
+.le{
+    margin-left: 0px;
+    width: 150px;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+}
+.le1{
+    margin-left: 0px;
+    font-size: 22px;
+    width: 10px;
+    font-family: 'Questrial', sans-serif;
+}
+.supercarrito {
+    text-align: left;
+    background-color: ivory;
+    font-size: 12px;
+    width: 10px;
+}
+.com{
+    margin-left: 43px;
+}
+    .cover22{
+        width: 160px;
+    }
+    .section1{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin: 20px;
+        height: 800px;
+        }
+        .section2{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin: 20px;
+        height: 450px;
+        }
+
+        .col-751 {
+            margin-left: 150px;
+        }
+        .col-251 {
+            margin-left: 40px;
+        }
+        input[type=submit],  input[type=reset]{
+
+margin: 6px;
+}
+
+        .col51{
+          margin-right: 25px;
+          padding: 20px;
+}
+        .col501{
+            margin-left: 30px;
+            margin-right: 60px;
+        }
+        .df{
+            margin-top: 10px;
+        }
+    .ga{
+    width: 300px;
+    height: 350px;
+    margin-left: 10px;
+    }
+    .left{
+    margin: 80px;
+    }
+    
+    .logo{
+        margin-left: 10px;
+    }
+   .p{
+        margin-right: 50px;
+        padding: 3px;
+   }
+   .t1{
+    margin: 20px;
+   }
+    .parrafo{
+
+        margin: 25px;
+        font-size: 15px;
+        text-align: justify;
+    }
+    .i{
+         margin-left: 75px;
+        width: 350px;
+        height: 250px;
+        padding: 10px;
+    }
+    .i11{
+         margin-left: 75px;
+        width: 350px;
+        height: 250px;
+        padding: 10px;
+    }
+    h2{
+        margin-left: 30px;
+         margin-right: 30px;
+         text-align: center;
+    }
+    .b1{
+        margin-right: 50px;
+    }
+    .b11{
+           margin-right: 40px;
+    }
+    .cover {
+        width: 400px;
+        height: 350px;
+        }
+    section {
+    padding: 40px;
+    }
+    .card-deck {
+    padding-left: 15px;
+    }
+    .slide-banner {
+    height: 40vh;
+}
+.gal {
+    height: 60vh;
+    width: 92%;
+   margin-left: 20px;
+} 
+.g{
+    margin-left: 30px;
+} 
+.g2{
+    margin-right: 30px;
+
+} 
+
+
+
+}

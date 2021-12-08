@@ -1,0 +1,18 @@
+.container1{
+    margin-left: 15;
+    margin-right: 15;
+    margin-bottom: 10;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    grid-template-rows: minmax(100px auto);
+}   
+
+.container1 div{
+    background: #ff40a0;
+    padding:30px;
+    
+}
+.container1 div:hover{
+    border: 2px solid white;
+}
